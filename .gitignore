@@ -1,0 +1,172 @@
+# ===============================================
+# .gitignore para ORMTypeProject
+# Node.js + TypeScript + PostgreSQL + Docker
+# ===============================================
+
+# 📦 Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 🏗️ Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# 🔐 Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# 📊 Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 🗄️ Database
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+postgres-data/
+pgdata/
+database.sql
+
+# 🐳 Docker
+docker-compose.override.yml
+.dockerignore
+Dockerfile.dev
+.docker/
+
+# 🔧 Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# 📁 Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+.nyc_output/
+
+# 🧪 Test files
+test-results/
+playwright-report/
+test-results.xml
+
+# 🚀 Deployment
+.vercel/
+.netlify/
+.aws/
+
+# 💻 IDE and Editor files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# 🖥️ OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# 📱 Mobile
+.expo/
+.expo-shared/
+
+# ⚡ Next.js (si se usa en el futuro)
+.next/
+out/
+
+# 🎭 Nuxt.js (si se usa en el futuro)
+.nuxt/
+.output/
+
+# 🔥 Firebase (si se usa en el futuro)
+.firebase/
+firebase-debug.log
+
+# 📦 Package managers
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# 🔒 Certificates and keys
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# 📂 Temporary folders
+tmp/
+temp/
+.tmp/
+.cache/
+
+# 🏃‍♂️ Runtime
+.pid
+.seed
+.pid.lock
+
+# 📝 Documentation builds
+docs/build/
+.docusaurus/
+
+# 🧩 TypeScript
+*.tsbuildinfo
+.tscache/
+
+# 🎯 Specific to this project
+uploads/
+public/uploads/
+storage/
+backups/
+migrations/*.js
+seeds/*.js
+
+# 🔍 Debugging
+.vscode/launch.json
+.vscode/settings.json
+
+# 📊 Monitoring and analytics
+.sentryclirc
+
+# 🚧 Work in progress
+TODO.md
+NOTES.md
+.notes/
+PROJECT_KNOWLEDGE.md
+CRUD_USERS_GUIDE.md
+
+# 🔄 CI/CD
+.github/workflows/*.yml
+!.github/workflows/main.yml
+
+# ===============================================
+# End of .gitignore
+# ===============================================
